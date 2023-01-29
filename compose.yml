@@ -1,6 +1,7 @@
 services:
   noop:
     build: .
+    image: jupegarnica/noop
     environment:
       - LOG=HELLO WORLD
-      - EXIT_CODE=123
+      - EXIT_CODE=22
