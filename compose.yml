@@ -1,3 +1,6 @@
 services:
   noop:
     build: .
+    environment:
+      - LOG=HELLO WORLD
+      - EXIT_CODE=123
