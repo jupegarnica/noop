@@ -34,6 +34,6 @@ docker-compose -f compose.yml -f compose.prod.yml up
 
 - Exit with code 0
 - Do not log
-- Light image: 1MB
+- Light image: 760.86 KB
 - If LOG environment it will log it to stdout
 - If EXIT_CODE environment it will exit with it.
