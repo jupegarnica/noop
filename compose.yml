@@ -1,6 +1,6 @@
 services:
   noop:
-    build: .
+    # build: .
     image: jupegarnica/noop
     environment:
       - LOG=HELLO WORLD
